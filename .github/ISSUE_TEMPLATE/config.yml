@@ -1,0 +1,10 @@
+blank_issues_enabled: true
+contact_links:
+
+  - name: Feature ideas
+    url: https://github.com/IntersectMBO/budget-management/labels/%F0%9F%92%A1%20Feature%20idea
+    about: Maybe someone else had the same or a similar idea already?
+
+  - name: All issues
+    url: https://github.com/IntersectMBO/council-toolkit-app/issues
+    about: Check whether your issue is not already covered here.
