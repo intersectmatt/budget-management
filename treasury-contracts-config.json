@@ -1,0 +1,20 @@
+{
+    "trsc-permissions":{
+        "expiration": "12 months following the last milestone"
+    },
+    "pssc-permissions": {
+        "maximum": "6 months following the last milestone",
+        "expiration": "6 months after the last planned milestone"
+    },
+    "oversight-committee-permissions": {
+        "trsc" : {
+            "fund": ""
+
+        },
+        "pssc": {
+            "pause" : "",
+            "resume" : "",
+            "modify": ""
+        }
+    }
+}
