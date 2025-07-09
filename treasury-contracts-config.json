@@ -98,74 +98,249 @@
                             }
                         ]
                     },
+                                        {
+                        "name": "Trusted Entities",
+                        "type": "atLeast",
+                        "required": 3,
+                        "scripts": [
+                        {
+                            "name": "Trusted Entity 1 - Cardano Foundation",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 2 - Sundae Labs",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 3 - Xerberus",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 4 - NMKR",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 5 - DQuadrant",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        }
+                        ]
+                    }
+                ]
+            },
+            "modify": {
+                "sameAs": "fund"
+            },
+            "disperse": {
+                "type": "all",
+                "scripts": [
                     {
-                        "name": "Trusted Entity 1 - Cardano Foundation",
-                        "type": "anyOf",
-                        "scripts" : [
+                        "name": "Intersect Admin",
+                        "type": "atLeast",
+                        "required": 2,
+                        "scripts": [
                             {
-                                "type": "sig",
-                                "keyHash": "xxxx"
+                            "name": "Intersect Admin 1",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
                             },
                             {
-                                "type": "sig",
-                                "keyHash": "xxxx"
+                                "name": "Intersect Admin 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Admin 3",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
-                        "name": "Trusted Entity 2 - Sundae Labs",
-                        "type": "anyOf",
+                        "name": "Intersect Leadership",
+                        "type": "all",
                         "scripts" : [
                             {
-                                "type": "sig",
-                                "keyHash": "xxxx"
+                            "name": "Intersect Leadership 1",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
                             },
                             {
-                                "type": "sig",
-                                "keyHash": "xxxx"
+                                "name": "Intersect Leadership 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
-                        "name": "Trusted Entity 3 - Xerberus",
-                        "type": "anyOf",
-                        "scripts" : [
-                            {
-                                "type": "sig",
-                                "keyHash": "xxxx"
-                            },
-                            {
-                                "type": "sig",
-                                "keyHash": "xxxx"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Trusted Entity 4 - NMKR",
-                        "type": "anyOf",
-                        "scripts" : [
-                            {
-                                "type": "sig",
-                                "keyHash": "xxxx"
-                            },
-                            {
-                                "type": "sig",
-                                "keyHash": "xxxx"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Trusted Entity 3 - DQuadrant",
-                        "type": "anyOf",
-                        "scripts" : [
-                            {
-                                "type": "sig",
-                                "keyHash": "xxxx"
-                            },
-                            {
-                                "type": "sig",
-                                "keyHash": "xxxx"
-                            }
+                        "name": "Trusted Entities",
+                        "type": "atLeast",
+                        "required": 2,
+                        "scripts": [
+                        {
+                            "name": "Trusted Entity 1 - Cardano Foundation",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 2 - Sundae Labs",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 3 - Xerberus",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 4 - NMKR",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 5 - DQuadrant",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        }
                         ]
                     }
                 ]
