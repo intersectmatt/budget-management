@@ -17,6 +17,18 @@ Configuration
 
 ## Oversight Committee Permission
 
+## Permission Instance Summary
+
+| Operation       | Intersect Admin | Intersect Leadership | Trusted Entities |
+|-----------------|-----------------|----------------------|------------------|
+| TRSC Fund       | 2 of 3          | 1 of 2               | 3 of 5           |
+| TRSC Disperse   | 2 of 3          | ALL (2 of 2)         | 3 of 5           |
+| TRSC Sweep      | 1 of 3          | 1 of 2               | Not required     |
+| TRSC Reorganize | 2 of 3          | Not required         | 3 of 5           |
+| PSSC Pause      | 2 of 3          | 1 of 2               | Not required     |
+| PSSC Resume     | 2 of 3          | 1 of 2               | Not required     |
+| PSSC Modify     | 2 of 3          | 1 of 2               | 3 of 5           |
+
 ### Treasury Reserve Contracts
 
 #### 1. Fund Operation
@@ -147,15 +159,3 @@ Configuration
   - DQuadrant (either of 2 keys)
 
 - **Note:** This permissions matches TRSC Fund
-
-## Permission Matrix Summary
-
-| Operation       | Intersect Admin | Intersect Leadership | Trusted Entities |
-|-----------------|-----------------|----------------------|------------------|
-| TRSC Fund       | 2 of 3          | 1 of 2               | 3 of 5           |
-| TRSC Disperse   | 2 of 3          | ALL (2 of 2)         | 3 of 5           |
-| TRSC Sweep      | 1 of 3          | 1 of 2               | Not required     |
-| TRSC Reorganize | 2 of 3          | Not required         | 3 of 5           |
-| PSSC Pause      | 2 of 3          | 1 of 2               | Not required     |
-| PSSC Resume     | 2 of 3          | 1 of 2               | Not required     |
-| PSSC Modify     | 2 of 3          | 1 of 2               | 3 of 5           |
