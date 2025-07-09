@@ -653,7 +653,9 @@
                     }
                 ]
             },
-            "resume" : "",
+            "resume" : {
+                "sameAs": "pause"
+            },
             "modify": {
                 "sameAs": "fund"
             }
