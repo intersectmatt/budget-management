@@ -123,11 +123,11 @@
                             "scripts" : [
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "1880102b04725318eb7a6f9f481815c82473c2f50cfe9932c85a3bf8"
                                 },
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "7a827787c47a4e74f102330cc8566ed9845047903121025911163b9d"
                                 }
                             ]
                         },
@@ -137,7 +137,7 @@
                             "scripts" : [
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "a7f06cf4e9c03c6b7eac317d5533d573a9be3018fb7b9d95dd778d39"
                                 },
                                 {
                                     "type": "sig",
@@ -288,11 +288,11 @@
                             "scripts" : [
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "1880102b04725318eb7a6f9f481815c82473c2f50cfe9932c85a3bf8"
                                 },
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "7a827787c47a4e74f102330cc8566ed9845047903121025911163b9d"
                                 }
                             ]
                         },
@@ -302,7 +302,7 @@
                             "scripts" : [
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "a7f06cf4e9c03c6b7eac317d5533d573a9be3018fb7b9d95dd778d39"
                                 },
                                 {
                                     "type": "sig",
@@ -508,11 +508,11 @@
                             "scripts" : [
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "1880102b04725318eb7a6f9f481815c82473c2f50cfe9932c85a3bf8"
                                 },
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "7a827787c47a4e74f102330cc8566ed9845047903121025911163b9d"
                                 }
                             ]
                         },
@@ -522,7 +522,7 @@
                             "scripts" : [
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "a7f06cf4e9c03c6b7eac317d5533d573a9be3018fb7b9d95dd778d39"
                                 },
                                 {
                                     "type": "sig",
