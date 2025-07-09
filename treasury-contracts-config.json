@@ -98,10 +98,10 @@
                             }
                         ]
                     },
-                                        {
+                    {
                         "name": "Trusted Entities",
                         "type": "atLeast",
-                        "required": 3,
+                        "required": 2,
                         "scripts": [
                         {
                             "name": "Trusted Entity 1 - Cardano Foundation",
