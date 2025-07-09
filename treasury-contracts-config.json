@@ -1,0 +1,664 @@
+{
+    "trsc-permissions":{
+        "expiration": "2028-08-01 00:00:00",
+        "expiration-readable": "August 1st 2028"
+    },
+    "pssc-permissions": {
+        "maximum": "2028-02-01 00:00:00",
+        "maximum-readable": "February 1st 2028",
+        "expiration": "2028-02-01 00:00:00",
+        "expiration-readable": "February 1st 2028"
+    },
+    "oversight-committee-permissions": {
+        "trsc" : {
+            "fund": {
+                "type": "all",
+                "scripts": [
+                    {
+                        "name": "Intersect Admin",
+                        "type": "atLeast",
+                        "required": 2,
+                        "scripts": [
+                            {
+                            "name": "Intersect Admin 1",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                            },
+                            {
+                                "name": "Intersect Admin 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Admin 3",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Intersect Leadership",
+                        "type": "atLeast",
+                        "required": 1,
+                        "scripts" : [
+                            {
+                            "name": "Intersect Leadership 1",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                            },
+                            {
+                                "name": "Intersect Leadership 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Trusted Entities",
+                        "type": "atLeast",
+                        "required": 2,
+                        "scripts": [
+                        {
+                            "name": "Trusted Entity 1 - Cardano Foundation",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 2 - Sundae Labs",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 3 - Xerberus",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 4 - NMKR",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 5 - DQuadrant",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        }
+                        ]
+                    }
+                ]
+            },
+            "disperse": {
+                "type": "all",
+                "scripts": [
+                    {
+                        "name": "Intersect Admin",
+                        "type": "atLeast",
+                        "required": 2,
+                        "scripts": [
+                            {
+                            "name": "Intersect Admin 1",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                            },
+                            {
+                                "name": "Intersect Admin 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Admin 3",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Intersect Leadership",
+                        "type": "all",
+                        "scripts" : [
+                            {
+                            "name": "Intersect Leadership 1",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                            },
+                            {
+                                "name": "Intersect Leadership 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Trusted Entities",
+                        "type": "atLeast",
+                        "required": 3,
+                        "scripts": [
+                        {
+                            "name": "Trusted Entity 1 - Cardano Foundation",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 2 - Sundae Labs",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 3 - Xerberus",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 4 - NMKR",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 5 - DQuadrant",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        }
+                        ]
+                    }
+                ]
+            },
+            "sweepTreasury": {
+                "type": "all",
+                "scripts": [
+                    {
+                        "name": "Intersect Admin",
+                        "type": "atLeast",
+                        "required": 1,
+                        "scripts": [
+                            {
+                                "name": "Intersect Admin 1",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Admin 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Admin 3",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Intersect Leadership",
+                        "type": "atLeast",
+                        "required": 1,
+                        "scripts" : [
+                            {
+                                "name": "Intersect Leadership 1",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Leadership 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "reorganize": {
+                "type": "all",
+                "scripts": [
+                    {
+                        "name": "Intersect Admin",
+                        "type": "atLeast",
+                        "required": 2,
+                        "scripts": [
+                            {
+                                "name": "Intersect Admin 1",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Admin 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Admin 3",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                                        {
+                        "name": "Trusted Entities",
+                        "type": "atLeast",
+                        "required": 3,
+                        "scripts": [
+                        {
+                            "name": "Trusted Entity 1 - Cardano Foundation",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 2 - Sundae Labs",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 3 - Xerberus",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 4 - NMKR",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trusted Entity 5 - DQuadrant",
+                            "type": "anyOf",
+                            "scripts" : [
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                },
+                                {
+                                    "type": "sig",
+                                    "keyHash": "xxxx"
+                                }
+                            ]
+                        }
+                        ]
+                    }
+                ]
+            }
+        },
+        "pssc": {
+            "pause" : {
+                "type": "all",
+                "scripts": [
+                    {
+                        "name": "Intersect Admin",
+                        "type": "atLeast",
+                        "required": 2,
+                        "scripts": [
+                            {
+                                "name": "Intersect Admin 1",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Admin 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Admin 3",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Intersect Leadership",
+                        "type": "atLeast",
+                        "required": 1,
+                        "scripts" : [
+                            {
+                                "name": "Intersect Leadership 1",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Intersect Leadership 2",
+                                "type": "anyOf",
+                                "scripts" : [
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    },
+                                    {
+                                        "type": "sig",
+                                        "keyHash": "xxxx"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "resume" : {
+                "sameAs": "pause"
+            },
+            "modify": {
+                "sameAs": "fund"
+            }
+        }
+    }
+}
