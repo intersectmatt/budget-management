@@ -6,7 +6,7 @@ Aiming to be able to verify the configuration and permissions of the script addr
 
 ## Prerequisites
 
-- Bun
+- [Bun](https://bun.sh/)
 
 ## Steps
 
@@ -28,4 +28,10 @@ cd ./treasury-contracts/off-chain
 bun install
 ```
 
-### 4. 
+### 4. Test that CLI works
+
+```shell
+bun run ./cli/cli.js -h
+```
+
+### 5. Test that CLI works
