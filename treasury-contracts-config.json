@@ -4,10 +4,10 @@
         "expiration-readable": "August 1st 2028"
     },
     "pssc-permissions": {
-        "maximum": "2028-02-01 00:00:00",
-        "maximum-readable": "February 1st 2028",
-        "expiration": "2028-02-01 00:00:00",
-        "expiration-readable": "February 1st 2028"
+        "maximum": "2028-08-30 00:00:00",
+        "maximum-readable": "August 30th 2028",
+        "expiration": "2028-09-30 00:00:00",
+        "expiration-readable": "September 30th 2028"
     },
     "oversight-committee-permissions": {
         "trsc" : {
