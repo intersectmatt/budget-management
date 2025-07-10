@@ -12,8 +12,8 @@ PSSC - Project Specific Smart Contract
 
 Configuration
 - TRSC Expires: August 1st, 2028 (2028-08-01 00:00:00)
-- PSSC Expires: February 1st, 2028 (2028-02-01 00:00:00)
-- PSSC Maximum milestone date: February 1st, 2028 (2028-02-01 00:00:00)
+- PSSC Maximum milestone date: August 30th, 2028 (2028-08-30 00:00:00)
+- PSSC Expires: September 30th, 2028 (2028-09-30 00:00:00)
 
 ## Oversight Committee Permission
 
