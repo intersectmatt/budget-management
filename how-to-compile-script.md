@@ -50,6 +50,8 @@ bun run ./cli/cli.js initialize
 
 Choose your provider (Blockfrost or Maestro) and enter a project key for them
 
+use blockfrost and project id of mainnetEbBouKVmh8AuDDsHxU9Q8JtjrcHuAja6
+
 ```shell
 ✔ Select the provider type Blockfrost
 ✔ Enter the Blockfrost project ID mainnet...
@@ -76,5 +78,5 @@ Choose manual for bootstrap UTxO selection
 Enter Intersect's bootstrap UTxO Enter Intersect's bootstrap UTxO: `31c2df71553c3c395fe3ae1ab0eb6e57aac28a0f5436ed413c3c8d2139c03a6d#0`
 
 ```shell
-Enter Intersect's bootstrap UTxO: `31c2df71553c3c395fe3ae1ab0eb6e57aac28a0f5436ed413c3c8d2139c03a6d#0`
+✔ Enter some transaction output (txId#idx) to spend to ensure the registry NFT is unique  31c2df71553c3c395fe3ae1ab0eb6e57aac28a0f5436ed413c3c8d2139c03a6d#0`
 ```
