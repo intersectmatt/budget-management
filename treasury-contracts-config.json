@@ -165,11 +165,11 @@
                             "scripts" : [
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "679ad28e567eb42ddb30a5cf6b5f066b2defbce393f19968d711f658"
                                 },
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "36e0cf1e52e05ef92e52c7bc2a04493d6bae481b8acbab12ec4300d7"
                                 }
                             ]
                         }
@@ -330,11 +330,11 @@
                             "scripts" : [
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "679ad28e567eb42ddb30a5cf6b5f066b2defbce393f19968d711f658"
                                 },
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "36e0cf1e52e05ef92e52c7bc2a04493d6bae481b8acbab12ec4300d7"
                                 }
                             ]
                         }
@@ -550,11 +550,11 @@
                             "scripts" : [
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "679ad28e567eb42ddb30a5cf6b5f066b2defbce393f19968d711f658"
                                 },
                                 {
                                     "type": "sig",
-                                    "keyHash": "xxxx"
+                                    "keyHash": "36e0cf1e52e05ef92e52c7bc2a04493d6bae481b8acbab12ec4300d7"
                                 }
                             ]
                         }
