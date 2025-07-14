@@ -1,13 +1,16 @@
 {
     "trsc-permissions":{
         "expiration": "2028-08-01 00:00:00",
-        "expiration-readable": "August 1st 2028"
+        "expiration-readable": "August 1st 2028",
+        "expiration-unix": "1848700800000"
     },
     "pssc-permissions": {
         "maximum": "2028-08-30 00:00:00",
         "maximum-readable": "August 30th 2028",
+        "maximum-unix": "1851206400000",
         "expiration": "2028-09-30 00:00:00",
-        "expiration-readable": "September 30th 2028"
+        "expiration-readable": "September 30th 2028",
+        "expiration-unix": "1853884800000"
     },
     "oversight-committee-permissions": {
         "trsc" : {
