@@ -6,27 +6,28 @@
   "body": {
     "event": "disburse",
     "label": "Swapping Ada allocated for Tweag proposal to USDM and USDA",
-    "description": "todo",
-    "justification": "todo",
-    "destinations": {
-      "0": {
-        "label": "NBX",
-        "amount": "xxxx",
-        "estimatedReturn": 1234,
+    "description": "Securing the budgeted dollar value in equal USDM USDA allocations, while ADA-USD price is favorable.",
+    "justification": [
+      "Intersect has committed to run a pilot with Tweag, for budget deliverable payments to be made with Cardano stablecoins.",
+      "Due to the lack of liquidity in Cardano stablecoins, we will use NBX and Anzens to perform OTC trades and then mint new USDM and USDA.",
+      ""
+    ],
+    "destination": [
+      {
+        "label": "NBX-USDM",
         "details": {
           "anchorUrl": "ipfs://...",
           "anchorDataHash": "..."
         }
       },
-      "1": {
-        "label": "Anzens",
-        "amount": "xxxx",
-        "estimatedReturn": 1234,
+     {
+        "label": "Anzens-USDA",
         "details": {
           "anchorUrl": "ipfs://...",
           "anchorDataHash": "..."
         }
       }
-    }
+    ],
+    "estimatedReturn": 1234
   }
 }
