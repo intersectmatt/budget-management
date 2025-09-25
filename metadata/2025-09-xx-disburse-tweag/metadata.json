@@ -9,8 +9,8 @@
     "description": "Securing the budgeted dollar value in equal USDA USDM allocations, while ADA-USD price is favorable.",
     "justification": [
       "Intersect has committed to run a pilot with Tweag, for budget deliverable payments to be made with Cardano stablecoins.",
-      "Due to the lack of liquidity in Cardano stablecoins, we will use NBX and Anzens to perform OTC trades and then mint new USDA and USDM.",
-      "The destinations are wallets controlled Cardano Development holding's via NBX's custodial service and Anzens' platform."
+      "Due to the lack of liquidity in Cardano stablecoins, we will use NBX and Anzens/Encryptus to perform OTC trades and then mint new USDA and USDM.",
+      "The destinations are wallets controlled by Cardano Development holding's via NBX's custodial service and Anzens custodial service."
     ],
     "destination": [
      {
