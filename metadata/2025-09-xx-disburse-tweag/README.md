@@ -37,5 +37,5 @@ See [metadata.json](./metadata.json).
 
 #### estimatedReturn
 
-We have put an estimate return of mid day Friday 3rd October 2025 (UNIX: `1759492800000`),
+We have put an estimate return of mid day Friday 24th October 2025 (UNIX: `1761307200000`),
 which is around one week from planned time of disburse.
