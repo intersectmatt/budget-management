@@ -21,11 +21,11 @@ We only cover notable outputs, other outputs may be required by the orchestratin
 
 #### Destination 0
 
-- `5,000,000 ada` to CDH's NBX account: [addr1q86l20kh85a04c7s6sxfvgt6jw033zss9tlntyq994l0chqs7xgz3gp5lhm8yl89a7xy7zlpt5p4jw5m0grpdwvt2d9svt5rhs](https://beta.cexplorer.io/address/addr1q86l20kh85a04c7s6sxfvgt6jw033zss9tlntyq994l0chqs7xgz3gp5lhm8yl89a7xy7zlpt5p4jw5m0grpdwvt2d9svt5rhs)
+- `5,250,000 ada` to CDH's NBX account: [addr1q86l20kh85a04c7s6sxfvgt6jw033zss9tlntyq994l0chqs7xgz3gp5lhm8yl89a7xy7zlpt5p4jw5m0grpdwvt2d9svt5rhs](https://beta.cexplorer.io/address/addr1q86l20kh85a04c7s6sxfvgt6jw033zss9tlntyq994l0chqs7xgz3gp5lhm8yl89a7xy7zlpt5p4jw5m0grpdwvt2d9svt5rhs)
 
 #### Destination 1
 
-- `5,000,000 ada` to CDH's Anzens account: [addr1qylp42jdehm66g8072yvlml0umr9zfxxl5cdaha3al7fspkj3828tyffxykdrxla87y2dq5e64a76h7jvrkulsw8s37sycpklx](https://beta.cexplorer.io/address/addr1qylp42jdehm66g8072yvlml0umr9zfxxl5cdaha3al7fspkj3828tyffxykdrxla87y2dq5e64a76h7jvrkulsw8s37sycpklx)
+- `5,250,000 ada` to CDH's Anzens account: [addr1qylp42jdehm66g8072yvlml0umr9zfxxl5cdaha3al7fspkj3828tyffxykdrxla87y2dq5e64a76h7jvrkulsw8s37sycpklx](https://beta.cexplorer.io/address/addr1qylp42jdehm66g8072yvlml0umr9zfxxl5cdaha3al7fspkj3828tyffxykdrxla87y2dq5e64a76h7jvrkulsw8s37sycpklx)
 
 #### Change
 
