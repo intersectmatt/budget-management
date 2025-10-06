@@ -21,20 +21,21 @@
       "service."
     ],
     "destination": [
-     {
-        "label": "Anzens-USDA",
-        "details": {
-          "anchorUrl": "ipfs://bafybeics3ckjnghwbz2g2iz4pumyeic2adeqwbplr64czbqr7ocfhishq4",
-          "anchorDataHash": "05077b0408841ae8aa5ac32e2603ceb8e56c36813c920c83d88b44b92dd503b0"
-        }
-      },
       {
         "label": "NBX-USDM",
         "details": {
           "anchorUrl": "ipfs://bafybeics3ckjnghwbz2g2iz4pumyeic2adeqwbplr64czbqr7ocfhishq4",
           "anchorDataHash": "05077b0408841ae8aa5ac32e2603ceb8e56c36813c920c83d88b44b92dd503b0"
         }
+      },
+      {
+        "label": "Anzens-USDA",
+        "details": {
+          "anchorUrl": "ipfs://bafybeics3ckjnghwbz2g2iz4pumyeic2adeqwbplr64czbqr7ocfhishq4",
+          "anchorDataHash": "05077b0408841ae8aa5ac32e2603ceb8e56c36813c920c83d88b44b92dd503b0"
+        }
       }
+      
     ],
     "estimatedReturn": 1761307200000
   }
