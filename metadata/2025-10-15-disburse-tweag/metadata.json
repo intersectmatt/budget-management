@@ -1,0 +1,42 @@
+{
+  "@context": "https://raw.githubusercontent.com/SundaeSwap-finance/treasury-contracts/refs/heads/main/offchain/src/metadata/context.jsonld",
+  "hashAlgorithm": "blake2b-256",
+  "txAuthor": "c27...",
+  "instance": "1ef...",
+  "body": {
+    "event": "disburse",
+    "label": "Swapping Ada allocated for Tweag proposal to USDA and USDM",
+    "description": [
+      "Securing the budgeted dollar value in equal USDA USDM ",
+      "allocations, while ADA-USD price is favorable."
+    ],
+    "justification": [
+      "Intersect has committed to run a pilot with Tweag, ",
+      "for budget deliverable payments to be made with Cardano ",
+      "stablecoins. Due to the lack of liquidity in Cardano ",
+      "stablecoins, the Cardano Development Holdings (CDH) will ",
+      "use NBX and Anzens/Encryptus to perform OTC trades and then ",
+      "mint new USDA and USDM. The destinations are wallets controlled ",
+      "by the CDH via NBX's custodial service and Anzens' custodial ",
+      "service."
+    ],
+    "destination": [
+      {
+        "label": "NBX-USDM",
+        "details": {
+          "anchorUrl": "ipfs://bafybeics3ckjnghwbz2g2iz4pumyeic2adeqwbplr64czbqr7ocfhishq4",
+          "anchorDataHash": "05077b0408841ae8aa5ac32e2603ceb8e56c36813c920c83d88b44b92dd503b0"
+        }
+      },
+      {
+        "label": "Anzens-USDA",
+        "details": {
+          "anchorUrl": "ipfs://bafybeics3ckjnghwbz2g2iz4pumyeic2adeqwbplr64czbqr7ocfhishq4",
+          "anchorDataHash": "05077b0408841ae8aa5ac32e2603ceb8e56c36813c920c83d88b44b92dd503b0"
+        }
+      }
+      
+    ],
+    "estimatedReturn": 1761307200000
+  }
+}
