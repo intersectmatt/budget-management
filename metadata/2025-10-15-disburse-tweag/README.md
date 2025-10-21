@@ -1,8 +1,8 @@
-# 2025-09-XX Disburse Tweag Stablecoin Conversion
+# 2025-10-15 Disburse Tweag Stablecoin Conversion
 
 ## On-Chain Details
 
-Transaction ID: ``
+Transaction ID: `03ad9a0043afc133ccb5cd1f031ba24b29b5dc8fb1a9d8c0584fd8b7ddc94e0e`
 
 ### Transaction Inputs
 
