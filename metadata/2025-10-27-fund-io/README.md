@@ -6,14 +6,15 @@ Individual .json file for each IO related vendor smart contract, with a seperate
 
 ## .json Smart Contract Details
 
-title - the title of the pssc/vendor smart contract
-id - the unique contract id the smart contract relates to
-contract description - description of the smart contract, what projects are included 
-vendor_payment_address - the wallet credential for the vendor for the pssc/vendor smart contract
-utxo_identifier - the utxo label to spend at the TRC address
+title:  the title of the pssc/vendor smart contract <br />
+id:  the unique contract id the smart contract relates to <br />
+contract description: description of the smart contract, what projects are included <br />
+vendor_payment_address: the wallet credential for the vendor for the pssc/vendor smart contract <br />
+utxo_identifier: the utxo label to spend at the TRC address <br />
 
 ## .csv Milestone Details
 
-ada_amount
-maturity_date (payment date from legal contract)
-description (consists of milestone number/identifier, milestone title, milestone deliverables)
+ada_amount <br />
+maturity_date: payment date from legal contract <br />
+description: consists of milestone number/identifier, milestone title, milestone deliverables) <br />
+
