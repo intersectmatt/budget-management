@@ -1,14 +1,14 @@
-"929,500",10/30/2025,"MS1.1 ? Automatic Formal Verification: Reasoning Core
+"929,500",10/30/2025,"MS1.1 - Automatic Formal Verification: Reasoning Core
 Deliverables: Documentation of the optimization and translation rules Code for the reasoning core available on the open-source Github"
-"929,500",4/30/2026,"MS1.2 ? Automatic Formal Verification: Blockchain formalization
+"929,500",4/30/2026,"MS1.2 - Automatic Formal Verification: Blockchain formalization
 Deliverables: Documentation of the operators and state transition Documentation of the ledger rules implemented Code available on the open source Github"
 "929,500",6/30/2026,"MS1.3 - Automatic Formal Verification: Universal annotation language
 Deliverables: Documentation and formal spec Presentation at the UPLC 2025 Examples in the open source repository"
 "929,500",10/30/2026,"MS1.4 - Automatic Formal Verification: Plinth Bridge
 Deliverables: Code available in either the plutus repository as a compiler option or in the afv tool repository Examples in the afv tool repository with both correct properties and counter example generation"
-"1,577,333",1/30/2026,"MS2.1 ? Property Based Testing Tool: Library ""tool""
+"1,577,333",1/30/2026,"MS2.1 - Property Based Testing Tool: Library ""tool""
 Deliverables: Code available in open source 5 examples showcasing the tool usage and capabilities"
-"1,577,333",7/30/2026,"MS2.2 ? Property Based Testing Tool:CLI Tool
+"1,577,333",7/30/2026,"MS2.2 - Property Based Testing Tool:CLI Tool
 Deliverables: Release of the binaries in the open source repository Source code available in the open source repository"
 "1,577,334",7/30/2026,"MS2.3 - Property Based Testing Tool: VSCode extension
 Deliverables: Release of the source code in an open source repository Packaged of the extension for the market place"
@@ -30,3 +30,4 @@ Deliverables: Code changes merged into Intersect GitHub repository"
 Deliverables: Formal specs and conformance tests documented"
 "2,366,000",7/30/2026,"MS4.6 - Leios: Second phase of code changes
 Deliverables: Code changes merged into Intersect GitHub repository. Leios-enabled Cardno node usable in a public Devnet"
+
