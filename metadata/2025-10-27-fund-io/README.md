@@ -15,6 +15,7 @@ utxo_identifier: the utxo label to spend at the TRC address <br />
 ## .csv Milestone Details
 
 ada_amount <br />
-maturity_date: payment date from legal contract <br />
+maturity_date: payment date from legal contract. Following the format Month, Day, Year (MM/DD/YYYY) <br />
 description: consists of milestone number/identifier, milestone title, milestone deliverables) <br />
+
 
