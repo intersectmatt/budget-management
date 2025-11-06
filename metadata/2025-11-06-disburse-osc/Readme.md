@@ -30,9 +30,9 @@ Estimated excess `1,269,615 ada` to be returned/remain at the Treasury Reserve C
 
 ### Transaction Metadata
 
-See 
+See [metadata.json](./metadata.json).
 
-#### estimatedReturn
+#### Estimated Return
 
 We have put an estimate return of Friday 28th November 2025 (UNIX: `1764374400`),
 which is around three weeks from planned time of disburse.
