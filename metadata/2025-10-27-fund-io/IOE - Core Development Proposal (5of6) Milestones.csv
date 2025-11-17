@@ -22,7 +22,7 @@ Deliverables: (1) support inlining for recursive bindings; (2) implement new com
 Deliverables: (1) Remove the requirement of using Nix for setup (2) Support at least two major GHC versions (3) Make the UPLC executable easier to use"
 "416,000",7/30/2026,"MS14.12 - Plutus Core: Plutus language performance benchmark 
 Deliverables: Develop a benchmark comparing the performance of various surface languages targeting UPLC, such as Plinth, Aiken, plu-ts and Plutarch."
-"416,000",11/30/2026,"MS14.13 - Plutus Core: Plinth (Plutus Tx) compiler certifier: initial release
+"416,000",10/30/2026,"MS14.13 - Plutus Core: Plinth (Plutus Tx) compiler certifier: initial release
 Deliverables: Initial release of the certifier focusing on certifying UPLC optimizations"
 "540,800",1/30/2026,"MS15.1 - Tiered Pricing Models: Transaction Prioritization Framework
 Deliverables: Test system with initial prioritization algorithms implemented"
@@ -40,4 +40,5 @@ Deliverables: Report on fraud and anomaly detection. Specification of the Backen
 Deliverables: Release in the open source repository. Live version on a selection of Dapps or wallets on a testnet with a rough UI"
 "1,126,668",7/30/2026,"MS16.3 - Transaction Monitoring System: Frontend for data visualization and alert mechanism
 Deliverables: Code available in the open source repository. Website with the new Front end visualization. Roadmap for future integration"
+
 
