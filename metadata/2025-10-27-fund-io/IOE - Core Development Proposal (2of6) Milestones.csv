@@ -24,7 +24,7 @@ Deliverables:  Additional modules as required Configuration files and installati
 Deliverables:  Mempool and block building modules. Test reports from manually triggered & dry run block production"
 "289,714",10/30/2026,"MS5.13 - Acropolis: Block producing node - testnet
 Deliverables:  KES store / agent, VRF lottery modules, upgrades to P2P for contribution. Test reports from operation on preview testnet"
-"289,714",1/30/2027,"MS5.14 - Acropolis: Block producing node - mainnet
+"289,718",1/30/2027,"MS5.14 - Acropolis: Block producing node - mainnet
 Deliverables:  Test reports from operation on mainnet"
 "743,600",10/30/2025,"MS6.1 - Hydra Development: Hydra V1 feature set
 Deliverables:  Improved event sourcing; Bounded memory; production grade monitoring and operations"
@@ -36,3 +36,4 @@ Deliverables:  Compile to WASM; mobile/browser compatible network stack; off-cha
 Deliverables:  Backend that routes payments from hydra to lightning node; Browser application that scans a lightning invoice and converts it to a payment in a hydra head"
 "743,600",7/30/2026,"MS6.5 - Hydra Development: Resolve known problems, audit, UX improvements, marketing initiatives
 Deliverables:  Partial fanout; no more known issues; no new issues unsolved by audit; updated website and docs, workshops at conferences"
+
