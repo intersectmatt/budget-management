@@ -5,13 +5,13 @@
   "instance": "1ef...",
   "body": {
     "event": "modify"
-    "identifier": "",
+    "identifier": "EG-0002-25",
     "otherIdentifiers": [...],
-    "label": "",
-    "description": "",
-    "reason": "",
+    "label": "Intersect MBO - Contract Date Modification",
+    "description": "Intersect will: 1. Execute administrator role for proposals funded by Cardano treasury which requested Intersect to act as Administrator 2. Through our members and committees provide support for Cardano’s on-chain governance (for ADA Holders, DReps, SPOs and CC members) 3. Through our members and committees facilitate proposal creation for Cardano Vision, Roadmap, and Budget 4. Steward core infrastructure a) Maintain and govern the open-source Cardano node repositories, including the Haskell codebases b) Coordinate and release upgrades proposed by ecosystem contributors, ensuring safe deployment, roadmap alignment, and stakeholder readiness c) Provide stability and continuity across key engineering practices and upgrade cycles 5. Provide easy participation via elected Committees and open working groups a) Professional Coordination and support for 8 committees and 30+ working groups b) Provide members tooling to participate 6. Support the emergence of new institutions like MBOs or DAOs ",
+    "reason": "Contract alignement with standard yearly quarters",
     "vendor": {
-      "label": "",
+      "label": "Intersect MBO - A member-based organization for the Cardano ecosytem",
       "details": {
         "anchorUrl": "",
         "anchorDataHash": ""
@@ -23,17 +23,31 @@
     },
     "milestones": {
       "001": {
-        "identifier": "",
+        "identifier": "m-0",
         "label": "",
         "description": "",
-        "acceptanceCriteria": "",
+        "acceptanceCriteria": "Milestone 1 - Project Kick-Off Contribution and progress towards the operational streams (As listed in the Description of Services column) An upfront contribution to support all administrative activities required for a successful treasury withdrawal process will be used to fund: - Intersect’s operational costs - Administrator delivery function - Activities listed in the Description of Services column",
         "details": { ... }
       }
         "002": {
-        "identifier": "",
+        "identifier": "m-1",
         "label": "",
         "description": "",
-        "acceptanceCriteria": "",
+        "acceptanceCriteria": "Milestone 2 Contribution and progress towards the operational streams (As listed in the Description of Services column). Delivery of the committee elections. 2030 Cardano Vision proposal submitted on-chain Delivery of the board elections. Detailed deliverables for Milestone 3",
+        "details": { ... }
+      }
+      "003": {
+        "identifier": "m-2",
+        "label": "",
+        "description": "",
+        "acceptanceCriteria": "Milestone 3 Contribution and progress towards the operational streams (As listed in the Description of Services column) Delivery of AMM session. Publish Intersect 2025 report. 2026 Cardano Roadmap proposal submitted on-chain. Detailed deliverables for Milestone 4",
+        "details": { ... }
+      }
+      "004": {
+        "identifier": "m-3",
+        "label": "",
+        "description": "",
+        "acceptanceCriteria": "Milestone 4 Contribution and progress towards the operational streams (As listed in the Description of Services column). Delivery of the committee elections. Intersect annual budget report",
         "details": { ... }
       }
     }
