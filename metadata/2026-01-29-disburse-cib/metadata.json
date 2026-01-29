@@ -11,9 +11,10 @@
       "for intial contratual committements"
     ],
        "justification": [
-      "Intersect is requesting to withdraw 10,500,000 ADA (15% of 70,000,000 ADA) ",
-      "from the Treasury Reserve Contract (TRC)  ",
-      "to cover the two obligations that have been signed ",
+      "Intersect is requesting to withdraw 10,500,000 ADA ",
+      "(15% of 70,000,000 ADA) from the ",
+      "Treasury Reserve Contract (TRC) to cover ",
+      "the two obligations that have been signed ",   
       "under the Cardano Critical Integrations Budget.",
     ],
     "destination": [
