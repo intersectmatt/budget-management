@@ -20,4 +20,4 @@ Change
 No change from the UTxO will be returned or remain at the Treasury Reserve Contract address: [addr1xxzc8pt7fgf0lc0x7eq6z7z6puhsxmzktna7dluahrj6g6v9swzhujsjlls7dajp59u95re0qdk9vh8mumlemw89535s4ecqxj] (https://beta.cexplorer.io/address/addr1xxzc8pt7fgf0lc0x7eq6z7z6puhsxmzktna7dluahrj6g6v9swzhujsjlls7dajp59u95re0qdk9vh8mumlemw89535s4ecqxj)
 
 ## Transaction Metadata
-See metadata.json.
+See [metadata.json](./metadata.json). 
