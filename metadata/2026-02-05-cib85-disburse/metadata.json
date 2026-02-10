@@ -5,17 +5,18 @@
   "instance": "....",
   "body": {
     "event": "disburse",
-    "label": "Withdrawing 85% of the Critical Integrations Budget",
+    "label": "Withdrawing the Critical Integrations Budget",
     "description": [
-      "Withdrawing 85% of the Critical Integrations Budget",
+      "Withdrawing the Critical Integrations Budget",
       "for initial contractual commitments"
     ],
     "justification": [
-      "Intersect is requesting to withdraw 59,500,000 ada ",
-      "(85% of 70,000,000 ada) from the ",
-      "Treasury Reserve Contract (TRC) to cover ",
-      "the two obligations that have been signed ",   
-      "under the Cardano Critical Integrations Budget."
+      "Intersect is requesting to withdraw 70,000,000 ada ",
+      ",the full Critical Integrations Budget, ",
+      "from the Treasury Reserve Contract (TRC) to ",
+      "satisfy contract obligations that have been signed ",
+      "or planned under the  ",   
+      "Cardano Critical Integrations Budget."
     ],
     "destination": [
       {
